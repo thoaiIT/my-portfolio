@@ -234,3 +234,38 @@ export const Other_skill = [
     height: 70,
   },
 ];
+
+export const projects = [
+  {
+    src: "/private.png",
+    title: "HRMs",
+    description:
+      "A comprehensive website designed for internal use within the company, aimed at streamlining human resources processes and leveraging technology to support HR functions.",
+  },
+  {
+    src: "/private.png",
+    title: "Madive One",
+    description:
+      "An advanced website tailored for enterprise management, facilitating centralized control over business operations, branch management, and product portfolios.",
+  },
+  {
+    src: "/private.png",
+    title: "K2 Project",
+    description:
+      "A robust enterprise management website, offering businesses a centralized platform to efficiently oversee and manage all facets of their operations.",
+  },
+  {
+    src: "/travelNest.png",
+    title: "TravelNest",
+    link: "https://travelnest.space/",
+    description:
+      "A web design project dedicated to assisting users in finding and booking accommodations, enhancing the travel experience with ease and efficiency.",
+  },
+  {
+    src: "/Owwi.png",
+    title: "OwwiMoney",
+    link: "https://owwimoney.vercel.app/",
+    description:
+      "Our web design project simplifies expense and finance management, empowering users with effective tools for financial control.",
+  },
+];

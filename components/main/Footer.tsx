@@ -1,13 +1,7 @@
 import React from "react";
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
+import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
 
-import { FaBuilding, FaFacebook, FaSchool, FaYoutube } from "react-icons/fa";
+import { FaBuilding, FaFacebook, FaSchool } from "react-icons/fa";
 
 const Footer = () => {
   return (
