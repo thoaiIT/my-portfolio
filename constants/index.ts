@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const Skill_data = [
   {
     skill_name: "Html 5",
@@ -60,12 +62,6 @@ export const Skill_data = [
     height: 80,
   },
   {
-    skill_name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "Node js",
     Image: "/node-js.png",
     width: 80,
@@ -81,16 +77,19 @@ export const Skill_data = [
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "LinkedIn",
+    src: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/thoaiisme/",
   },
   {
     name: "Facebook",
     src: "/facebook.svg",
+    link: "https://www.facebook.com/thoaiisme/",
   },
   {
-    name: "Instagram",
+    name: "Discord",
     src: "/discord.svg",
+    link: "https://discord.gg/HymbCjfM",
   },
 ];
 
@@ -114,6 +113,12 @@ export const Frontend_skill = [
     height: 65,
   },
   {
+    skill_name: "Type Script",
+    Image: "/ts.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Tailwind Css",
     Image: "/tailwind.png",
     width: 80,
@@ -122,6 +127,18 @@ export const Frontend_skill = [
   {
     skill_name: "Material UI",
     Image: "/mui.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Antd",
+    Image: "/antd.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Radix UI",
+    Image: "/radix.png",
     width: 80,
     height: 80,
   },
@@ -143,14 +160,9 @@ export const Frontend_skill = [
     width: 80,
     height: 80,
   },
+
   {
-    skill_name: "Type Script",
-    Image: "/ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next js 13",
+    skill_name: "NextJs",
     Image: "/next.png",
     width: 80,
     height: 80,
@@ -177,14 +189,8 @@ export const Backend_skill = [
     height: 40,
   },
   {
-    skill_name: "Fire base",
-    Image: "/Firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "Postger SQL",
-    Image: "/postger.png",
+    skill_name: "Postgre SQL",
+    Image: "/postgre.png",
     width: 70,
     height: 70,
   },
@@ -208,39 +214,58 @@ export const Backend_skill = [
   },
 ];
 
-export const Full_stack = [
-  {
-    skill_name: "React Native",
-    Image: "/ReactNative .png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    Image: "/tauri.svg",
-    width: 70,
-    height: 70,
-  },
+export const Other_skill = [
   {
     skill_name: "Docker",
     Image: "/docker.webp",
     width: 70,
     height: 70,
   },
-
   {
-    skill_name: "Figma",
-    Image: "/figma.png",
-    width: 50,
-    height: 50,
+    skill_name: "Jenkins",
+    Image: "/jenkins.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Git",
+    Image: "/git.png",
+    width: 70,
+    height: 70,
   },
 ];
 
-export const Other_skill = [
+export const projects = [
   {
-    skill_name: "Go",
-    Image: "/go.png",
-    width: 60,
-    height: 60,
+    src: "/private.png",
+    title: "HRMs",
+    description:
+      "A comprehensive website designed for internal use within the company, aimed at streamlining human resources processes and leveraging technology to support HR functions.",
+  },
+  {
+    src: "/private.png",
+    title: "Madive One",
+    description:
+      "An advanced website tailored for enterprise management, facilitating centralized control over business operations, branch management, and product portfolios.",
+  },
+  {
+    src: "/private.png",
+    title: "K2 Project",
+    description:
+      "A robust enterprise management website, offering businesses a centralized platform to efficiently oversee and manage all facets of their operations.",
+  },
+  {
+    src: "/travelNest.png",
+    title: "TravelNest",
+    link: "https://travelnest.space/",
+    description:
+      "A web design project dedicated to assisting users in finding and booking accommodations, enhancing the travel experience with ease and efficiency.",
+  },
+  {
+    src: "/Owwi.png",
+    title: "OwwiMoney",
+    link: "https://owwimoney.vercel.app/",
+    description:
+      "Our web design project simplifies expense and finance management, empowering users with effective tools for financial control.",
   },
 ];
